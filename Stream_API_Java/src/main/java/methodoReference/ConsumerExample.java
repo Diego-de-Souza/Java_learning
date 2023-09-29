@@ -29,5 +29,12 @@ public class ConsumerExample {
                 System.out.println(n);
             }
         });
+
+        /*outra forma de fazer
+        numeros.stream()
+                .filter(n -> n % 2 == 0)
+                .forEach(System.out::println);
+
+         */
     }
 }
